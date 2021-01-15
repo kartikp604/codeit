@@ -234,11 +234,11 @@
   });
 
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 10,
+    disableOn: 700,
     type: 'iframe',
     mainClass: 'mfp-fade',
     removalDelay: 160,
-	 	frameborder:"0",
+//	 	frameborder:"0",
 		accelerometer:true,
     preloader: true,
 		autoPlay: true,
