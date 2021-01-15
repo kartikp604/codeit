@@ -239,8 +239,8 @@
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: true,
-
-    fixedContentPos: true
+		autoPlay: true,
+    fixedContentPos: false
   });
 
 
