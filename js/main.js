@@ -240,9 +240,6 @@
     removalDelay: 160,
 	 	frameborder:"0",
 		accelerometer:true,
-		encrypted-media:true,
-		gyroscope:true,
-		picture-in-picture:true,
     preloader: true,
 		autoPlay: true,
     fixedContentPos: true
