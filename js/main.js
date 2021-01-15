@@ -234,13 +234,13 @@
   });
 
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
+    disableOn: 10,
+    type: 'image',
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: true,
 		autoPlay: true,
-    fixedContentPos: false
+    fixedContentPos: true
   });
 
 
