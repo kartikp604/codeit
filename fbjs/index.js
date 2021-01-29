@@ -20,3 +20,8 @@ var data={
   details:"hello this is my first blog"
 }
 ref.push(data);
+
+$("submit_btn").click(function(){
+  var name= $(#name).val();
+});
+return db.ref(u_name=name);
