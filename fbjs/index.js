@@ -24,6 +24,6 @@ ref.push(data);
 $("submit_btn").click(function(){
   var name= $("name").val();
 });
-return db.ref().set({
+return ref.set({
   username: name
 });
