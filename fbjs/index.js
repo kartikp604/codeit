@@ -12,4 +12,11 @@ firebase.initializeApp(config);
 //firebase.analytics();
 console.log(firebase);
 
-var database=firebase.database();
+var db=firebase.database();
+var ref=db.ref('feedback');
+
+var data={
+  title:"blog1",
+  details:"hello this is my first blog"
+}
+ref.push(data);
